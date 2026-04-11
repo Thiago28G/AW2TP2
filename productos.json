@@ -1,0 +1,79 @@
+[
+  {
+    "id": 101,
+    "nombre": "Laptop Lenovo IdeaPad 3",
+    "desc": "Notebook 15.6 pulgadas, procesador Intel Core i5, 8GB RAM, SSD 256GB, Windows 11",
+    "precio": 849999.99,
+    "imagen": "lenovo-ideapad3.jpg",
+    "stock": 12,
+    "categoria": "Computadoras",
+    "disponible": true,
+    "destacado": true
+  },
+  {
+    "id": 102,
+    "nombre": "Mouse Inalámbrico Logitech M185",
+    "desc": "Mouse inalámbrico compacto con receptor USB nano, duración de batería hasta 12 meses, compatible con Windows y Mac",
+    "precio": 14999.50,
+    "imagen": "logitech-m185.jpg",
+    "stock": 45,
+    "categoria": "Periféricos",
+    "disponible": true,
+    "destacado": false
+  },
+  {
+    "id": 103,
+    "nombre": "Teclado Mecánico Redragon K552",
+    "desc": "Teclado mecánico gaming TKL, switches Red, retroiluminación RGB, estructura metálica resistente",
+    "precio": 39500.00,
+    "imagen": "redragon-k552.jpg",
+    "stock": 0,
+    "categoria": "Periféricos",
+    "disponible": false,
+    "destacado": false
+  },
+  {
+    "id": 104,
+    "nombre": "Monitor Samsung 24\" FHD",
+    "desc": "Monitor LED 24 pulgadas Full HD 1080p, panel IPS, 75Hz, tiempo de respuesta 5ms, entrada HDMI y VGA",
+    "precio": 219999.00,
+    "imagen": "samsung-monitor-24.jpg",
+    "stock": 8,
+    "categoria": "Monitores",
+    "disponible": true,
+    "destacado": true
+  },
+  {
+    "id": 105,
+    "nombre": "Auriculares HyperX Cloud Stinger",
+    "desc": "Auriculares gaming con micrófono desmontable, drivers de 50mm, sonido surround virtual 7.1, conexión 3.5mm",
+    "precio": 52750.75,
+    "imagen": "hyperx-cloud-stinger.jpg",
+    "stock": 20,
+    "categoria": "Audio",
+    "disponible": true,
+    "destacado": true
+  },
+  {
+    "id": 106,
+    "nombre": "Disco Rígido Externo WD 1TB",
+    "desc": "Disco duro externo portátil 1TB, USB 3.0, compatible con PC y Mac, incluye cable USB",
+    "precio": 78400.00,
+    "imagen": "wd-passport-1tb.jpg",
+    "stock": 17,
+    "categoria": "Almacenamiento",
+    "disponible": true,
+    "destacado": false
+  },
+  {
+    "id": 107,
+    "nombre": "Webcam Logitech C920 HD",
+    "desc": "Cámara web Full HD 1080p, 30fps, micrófono estéreo integrado, autofocus, compatible con Zoom, Teams y Skype",
+    "precio": 61200.00,
+    "imagen": "logitech-c920.jpg",
+    "stock": 5,
+    "categoria": "Periféricos",
+    "disponible": true,
+    "destacado": false
+  }
+]
