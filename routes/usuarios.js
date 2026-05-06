@@ -1,7 +1,12 @@
-const express = require('express');
+import express from 'express';
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
 const router = express.Router();
-const fs = require('fs');
-const path = require('path');
 
 const usuariosPath = path.join(__dirname, '../usuarios.json');
 const ventasPath = path.join(__dirname, '../ventas.json');
@@ -84,4 +89,4 @@ router.delete('/:id', (req, res) => {
     res.json({ mensaje: 'Usuario eliminado', usuario: sinContraseña });
 });
 
-module.exports = router;
+export default router;

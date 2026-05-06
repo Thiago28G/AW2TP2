@@ -1,7 +1,12 @@
-const express = require('express');
+import express from 'express';
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
 const router = express.Router();
-const fs = require('fs');
-const path = require('path');
 
 const ventasPath = path.join(__dirname, '../ventas.json');
 
@@ -54,4 +59,4 @@ router.put('/:id', (req, res) => {
     res.json(ventas[index]);
 });
 
-module.exports = router;
+export default router;
