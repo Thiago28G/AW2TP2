@@ -13,8 +13,18 @@
     "pagado": true,
     "enviado": true,
     "productos": [
-      { "id_producto": 101, "nombre": "Laptop Lenovo IdeaPad 3", "cantidad": 1, "precio_unitario": 849999.99 },
-      { "id_producto": 102, "nombre": "Mouse Inalámbrico Logitech M185", "cantidad": 1, "precio_unitario": 14999.50 }
+      {
+        "id_producto": 101,
+        "nombre": "Laptop Lenovo IdeaPad 3",
+        "cantidad": 1,
+        "precio_unitario": 849999.99
+      },
+      {
+        "id_producto": 102,
+        "nombre": "Mouse Inalámbrico Logitech M185",
+        "cantidad": 1,
+        "precio_unitario": 14999.5
+      }
     ]
   },
   {
@@ -31,15 +41,25 @@
     "pagado": true,
     "enviado": true,
     "productos": [
-      { "id_producto": 104, "nombre": "Monitor Samsung 24\" FHD", "cantidad": 1, "precio_unitario": 219999.00 },
-      { "id_producto": 105, "nombre": "Auriculares HyperX Cloud Stinger", "cantidad": 1, "precio_unitario": 52750.75 }
+      {
+        "id_producto": 104,
+        "nombre": "Monitor Samsung 24\" FHD",
+        "cantidad": 1,
+        "precio_unitario": 219999
+      },
+      {
+        "id_producto": 105,
+        "nombre": "Auriculares HyperX Cloud Stinger",
+        "cantidad": 1,
+        "precio_unitario": 52750.75
+      }
     ]
   },
   {
     "id": 1003,
     "id_usuario": 4,
     "fecha": "2026-04-01T09:05:00Z",
-    "total": 156800.00,
+    "total": 156800,
     "direccion": {
       "calle": "Belgrano 300",
       "ciudad": "Buenos Aires",
@@ -49,14 +69,19 @@
     "pagado": true,
     "enviado": false,
     "productos": [
-      { "id_producto": 106, "nombre": "Disco Rígido Externo WD 1TB", "cantidad": 2, "precio_unitario": 78400.00 }
+      {
+        "id_producto": 106,
+        "nombre": "Disco Rígido Externo WD 1TB",
+        "cantidad": 2,
+        "precio_unitario": 78400
+      }
     ]
   },
   {
     "id": 1004,
     "id_usuario": 5,
     "fecha": "2026-04-05T18:44:00Z",
-    "total": 75199.50,
+    "total": 75199.5,
     "direccion": {
       "calle": "Rivadavia 1120",
       "ciudad": "Mar del Plata",
@@ -66,8 +91,18 @@
     "pagado": false,
     "enviado": false,
     "productos": [
-      { "id_producto": 107, "nombre": "Webcam Logitech C920 HD", "cantidad": 1, "precio_unitario": 61200.00 },
-      { "id_producto": 102, "nombre": "Mouse Inalámbrico Logitech M185", "cantidad": 1, "precio_unitario": 14999.50 }
+      {
+        "id_producto": 107,
+        "nombre": "Webcam Logitech C920 HD",
+        "cantidad": 1,
+        "precio_unitario": 61200
+      },
+      {
+        "id_producto": 102,
+        "nombre": "Mouse Inalámbrico Logitech M185",
+        "cantidad": 1,
+        "precio_unitario": 14999.5
+      }
     ]
   },
   {
@@ -84,7 +119,30 @@
     "pagado": true,
     "enviado": false,
     "productos": [
-      { "id_producto": 105, "nombre": "Auriculares HyperX Cloud Stinger", "cantidad": 1, "precio_unitario": 52750.75 }
+      {
+        "id_producto": 105,
+        "nombre": "Auriculares HyperX Cloud Stinger",
+        "cantidad": 1,
+        "precio_unitario": 52750.75
+      }
     ]
+  },
+  {
+    "id": 1006,
+    "fecha": "2026-05-18T17:09:20.540Z",
+    "id_usuario": 2,
+    "productos": [
+      {
+        "id_producto": 102,
+        "cantidad": 1,
+        "precio_unitario": 14999.5
+      },
+      {
+        "id_producto": 107,
+        "cantidad": 1,
+        "precio_unitario": 61200
+      }
+    ],
+    "total": 76199.5
   }
 ]
